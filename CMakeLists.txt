@@ -3,7 +3,8 @@ project(K-CBS-Examples)
 cmake_minimum_required (VERSION 3.16)
 set (CMAKE_CXX_STANDARD 17)
 
-find_package(ompl REQUIRED) # make sure this is the ompl with the K-CBS implementation
+set(ompl_ROOT /home/akmarak-laptop/IMRC/db-CBS/k_cbs/ompl)
+find_package(ompl)
 
 include_directories(
     includes
